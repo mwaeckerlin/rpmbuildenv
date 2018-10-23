@@ -1,4 +1,4 @@
-FROM opensuse:latest
+FROM amd64/opensuse:leap
 
 RUN zypper install -y \
                    which pkgconfig gnupg expect subversion git make \
