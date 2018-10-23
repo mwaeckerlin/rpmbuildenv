@@ -6,4 +6,4 @@ RUN dnf install -y \
                    cppunit-devel doxygen graphviz java-openjdk \
                    qt5-qtbase-devel qt5-qttools-devel qt5-qtwebkit-devel \
                    mscgen pandoc libtool libtool-ltdl-devel wget \
-                   libtool-ltdl-devel
+                   libtool-ltdl-devel rpm-sign redhat-lsb
