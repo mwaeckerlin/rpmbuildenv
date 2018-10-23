@@ -1,4 +1,4 @@
-FROM amd64/fedora:28
+FROM amd64/fedora:26
 
 RUN dnf install -y \
                    which pkgconfig gnupg expect subversion git make \
