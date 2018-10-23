@@ -1,6 +1,6 @@
-FROM amd64/fedora:26
+FROM amd64/centos:7
 
-RUN dnf install -y \
+RUN yum install -y epel-release \
                    which pkgconfig gnupg expect subversion git make \
                    automake autoconf rpm-build binutils-devel gcc-c++ \
                    cppunit-devel doxygen graphviz java-openjdk \
